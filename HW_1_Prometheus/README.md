@@ -16,38 +16,28 @@
 2. На этой же ВМ установлены сервисы мониторинга Prometheus: Blackbox exporter, Node exporter и MySQL exporter. Конфигурацию экспортёров можно видеть в папке “nginx”.
 3. На другой ВМ “prometheus” (http://202.78.175.168:9090)  развернут Prometheus и Alertmanager. Сбор метрик настроен как в задании, каждые 5 секунд. Конфигурацию можно видеть в папке “prometheus”.
 4. Alertmanager настроен таким образом, чтобы с помощью телеграмм бота @NameProm_bot отправлять алерты с важностью Critical в группу “GrPrometheus” https://t.me/+lZ4UE_3uNdJiNTA6
+
 Скриншоты:
 
-
+CMS
 ![image](https://user-images.githubusercontent.com/31159741/172143581-0782b3c4-976b-4170-959c-cbaf412bdf53.png)
 
-CMS
-
-
-![image](https://user-images.githubusercontent.com/31159741/172143612-2f93b65f-a2e1-4d44-aa0d-3b1e01e73b48.png)
 
 Установленные сервисы на ВМ “nginx”
+![image](https://user-images.githubusercontent.com/31159741/172143612-2f93b65f-a2e1-4d44-aa0d-3b1e01e73b48.png)
 
-
-![image](https://user-images.githubusercontent.com/31159741/172143626-db57338e-8ab6-40da-bacb-8211414decf4.png)
 
 Установленные сервисы на ВМ “prometheus”
+![image](https://user-images.githubusercontent.com/31159741/172143626-db57338e-8ab6-40da-bacb-8211414decf4.png)
 
-
-![image](https://user-images.githubusercontent.com/31159741/172143645-58cc4517-3cde-43bc-a86f-24384ab65e3a.png)
 
 Статус Prometheus targets
+![image](https://user-images.githubusercontent.com/31159741/172143645-58cc4517-3cde-43bc-a86f-24384ab65e3a.png)
 
-
-![image](https://user-images.githubusercontent.com/31159741/172143653-cc8083ea-407b-4b3d-be9c-6be33d9d33e5.png)
 
 Алерты настроенные на Prometheus
+![image](https://user-images.githubusercontent.com/31159741/172143653-cc8083ea-407b-4b3d-be9c-6be33d9d33e5.png)
 
-
-![image](https://user-images.githubusercontent.com/31159741/172143667-932cc0a4-c8aa-4111-863e-0f53b9b75fb4.png)
 
 Алерт в телеграмме со статусом Critical
-
-
-
-
+![image](https://user-images.githubusercontent.com/31159741/172143667-932cc0a4-c8aa-4111-863e-0f53b9b75fb4.png)
