@@ -1,0 +1,22 @@
+groups:
+- name: alertname
+  rules:
+  - alert: Server_is_Down
+    expr: up == 0
+    for: 30s
+    labels:
+      severity: critical
+      instance: '{{ $labels.mountpoint }}'
+    annotations:
+      description: 'Приложение {{ $labels.job }} недоступно более 30 секунд.'
+      summary: Instance {{ $labels.instance }} down
+
+  # memory_size
+  - alert: memory_size
+    expr: avg (100 - node_memory_MemFree_bytes / node_memory_MemTotal_bytes * 100) > 95
+    for: 10s
+    labels:
+      instance: '{{ $labels.instance }}:{{ $labels.mountpoint }}'
+    annotations:
+      description: 'Нагрузка 95%'
+      summary: Instance {{ $labels.instance }} memory
