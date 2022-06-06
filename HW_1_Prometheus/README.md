@@ -18,6 +18,7 @@
 4. Alertmanager настроен таким образом, чтобы с помощью телеграмм бота @NameProm_bot отправлять алерты с важностью Critical в группу “GrPrometheus” https://t.me/+lZ4UE_3uNdJiNTA6
 
 Скриншоты:
+
 CMS
 
 ![image](https://user-images.githubusercontent.com/31159741/172143581-0782b3c4-976b-4170-959c-cbaf412bdf53.png)
