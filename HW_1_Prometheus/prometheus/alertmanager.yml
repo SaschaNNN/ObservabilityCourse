@@ -12,7 +12,7 @@ receivers:
   - name: 'default-telegram'
     telegram_configs:
     - api_url: 'https://api.telegram.org'
-      bot_token: "5453506272:AAEWhyYcF78byF7-7TSxWdkWQ2W5Yjn7es4"
+      bot_token: "1111"
       chat_id: -668904575
       disable_notifications: false
       http_config:
