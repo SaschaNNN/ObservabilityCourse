@@ -13,4 +13,9 @@
 
 Скриншоты:
 
+infra - инфраструктурный dashboard
+![image](https://user-images.githubusercontent.com/31159741/172187886-a0e425cd-ce45-4211-8070-6498e081ea1b.png)
+
+app - сводная информация CMS
+![image](https://user-images.githubusercontent.com/31159741/172192060-5ad6df0f-e46d-4897-adb6-d4d87bb814bd.png)
 
