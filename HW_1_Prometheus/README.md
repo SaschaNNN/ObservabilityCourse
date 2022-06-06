@@ -23,6 +23,7 @@ CMS
 ![image](https://user-images.githubusercontent.com/31159741/172143581-0782b3c4-976b-4170-959c-cbaf412bdf53.png)
 
 
+
 Установленные сервисы на ВМ “nginx”
 ![image](https://user-images.githubusercontent.com/31159741/172143612-2f93b65f-a2e1-4d44-aa0d-3b1e01e73b48.png)
 
