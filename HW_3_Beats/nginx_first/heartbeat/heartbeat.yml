@@ -1,0 +1,15 @@
+heartbeat.config.monitors:
+  path: ${path.config}/monitors.d/*.yml
+  reload.enabled: false
+  reload.period: 5s
+heartbeat.monitors:
+- type: http
+  enabled: true
+  id: GOOGLE
+  name: GOOGLE
+  urls: ["https://google.com"]
+  schedule: '@every 10s'
+output.logstash:
+  hosts: ["192.168.123.196:5044"]
+processors:
+  - add_observer_metadata:

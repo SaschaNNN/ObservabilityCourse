@@ -1,0 +1,8 @@
+- type: http # monitor type `http`. Connect via HTTP an optionally verify response
+  id: OTUS
+  name: OTUS
+  schedule: '@every 5s' # every 5 seconds from start of beat
+  hosts: ["https://otus.ru"]
+  ipv4: true
+  ipv6: true
+  mode: any
